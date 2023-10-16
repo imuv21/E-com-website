@@ -1,0 +1,30 @@
+.searchcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.searchchild {
+  min-width: fit-content;
+  color: rgb(171, 171, 171);
+  text-align: left;
+  outline: 1px solid rgb(171, 171, 171);
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* .searchchild:nth-child(1) {
+    flex: 0.3;
+} */
+
+/* .searchcard {
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+} */

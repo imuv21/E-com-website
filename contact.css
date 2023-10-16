@@ -1,0 +1,201 @@
+
+/* collaps css */
+/* FAQ COLLAPSE/EXPAND STYLES */
+
+/* Style the element that is used to open and close the accordion class */
+p.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px 0;
+    width: 95%;
+    height: 40px;
+    text-align: left;
+    border-top: 1px solid #444;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+}
+/* validation */
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}
+.validationerror {
+    color: red;
+}
+
+.otp[type="text"] {
+    text-decoration: none;
+    color: gray;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+} */
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "\2796"; 
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+   
+
+/* ...... */
+
+
+#bg{
+    background-color: rgb(255, 255, 255);
+    padding:0 40px;
+}
+#map{
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+}
+#abclose1{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 170px;
+    right:480px;
+}
+#abclose2{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:100px;
+    right:460px;
+}
+#abclose3{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:30px;
+    right:460px;
+}
+#abclose4{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:190px;
+    right:460px;
+}
+#pink{
+    color: rgb(255, 61, 142);
+}
+
+img{
+    width: 80%;
+    object-fit: contain;
+}
+#row1{
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+#row2{
+    margin-top: 6%;
+}
+
+.btn__hoverr:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+#tdn{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#tdn:hover{
+    text-decoration: none;
+}
+#tdn:focus{
+    text-decoration: none;
+}
+
+.btn__hoverr{
+    width: 330px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    height: 47px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+/*    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);*/
+background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4,#4e4376);
+    /* box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75); */
+    display: flex;
+    text-decoration: none !important;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    p.accordion {
+        height: 45px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+   #row1{
+    margin-top: 5rem;
+   }
+  }
+  @media screen and (max-width: 450px) {
+   
+    p{
+        font-size: small;
+    }
+   }

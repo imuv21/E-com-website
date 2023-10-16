@@ -1,0 +1,902 @@
+div.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+
+    text-align: left;
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+    /* padding: 5px; */
+    /* outline: none; */
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+
+.phont {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.phont2 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.phont3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Unicode character for "plus" sign (+) */
+div.id:after {
+    content: '+';
+    font-size: 25px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+div.id.active:after {
+    content: "-";
+    font-size: 25px;
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+    margin-bottom: 1rem;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 100%;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+.add_cng_btn {
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+div.subaccordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+
+    text-align: left;
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+    /* padding: 5px; */
+    /* outline: none; */
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+
+.phont {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.phont2 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.phont3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Unicode character for "plus" sign (+) */
+div.id:after {
+    content: '+';
+    font-size: 25px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+div.id.active:after {
+    content: "-";
+    font-size: 25px;
+}
+
+/* Style the element that is used for the panel class */
+
+div.subpanel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+    margin-bottom: 1rem;
+}
+
+div.subpanel.show {
+    opacity: 1;
+    max-height: 100%;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#abclose1 {
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 170px;
+    right: 480px;
+}
+
+#abclose2 {
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 100px;
+    right: 460px;
+}
+
+.youraddchild a {
+    text-decoration: none;
+}
+
+.youraddchild a:hover {
+    color: black;
+}
+
+
+
+/* address accordi */
+
+/* collaps css */
+/* FAQ COLLAPSE/EXPAND STYLES */
+
+/* Style the element that is used to open and close the accordion class */
+/* div.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+   
+    text-align: left;
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa; */
+/* padding: 5px; */
+/* outline: none; */
+/* transition: 0.4s;
+    margin-bottom:10px;
+}
+#acc_1{
+    height: 80px;
+}
+#acc_2{
+    height: 50px;
+} */
+/* validation */
+
+/* .roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}
+.validationerror {
+    color: red;
+}
+
+.otp[type="text"] {
+    text-decoration: none;
+    color: gray;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+} */
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+} */
+
+/* Unicode character for "plus" sign (+) */
+/* div.id:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+} */
+
+/* Unicode character for "minus" sign (-) */
+/* div.id.active:after {
+    content: "\2796"; 
+} */
+
+
+/* Style the element that is used for the panel class */
+/* 
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom: 2rem;
+   
+}
+#panel {
+    display: none;
+}
+#more{
+    cursor: pointer;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; 
+} */
+
+#acc_1 {
+    height: 80px;
+}
+
+#acc_2 {
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.change:focus {
+    outline: none;
+    border: none;
+}
+
+.change:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+
+.change {
+    height: 5vh;
+    width: 15vh;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4, #4e4376);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+/* validation */
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.validationerror {
+    color: red;
+}
+
+.otp[type="text"] {
+    text-decoration: none;
+    color: gray;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#abclose3 {
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 30px;
+    right: 460px;
+}
+
+#abclose4 {
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 190px;
+    right: 460px;
+}
+
+
+
+
+
+
+.two {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+}
+
+.chadds {
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+}
+
+.maup2 {
+    margin-top: -1rem;
+}
+
+.cartheader {
+    padding: 3rem;
+}
+
+.oldaddshipp {
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+
+.addshipp {
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+    padding: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.con {
+    outline: 2px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
+.left {
+    text-align: left;
+}
+
+#bgclr {
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.maup {
+    margin-top: 2rem;
+}
+
+.addmaup {
+    margin-top: 1rem;
+}
+
+#emaillls {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 5vh;
+    color: rgb(181, 181, 181);
+}
+
+#emaillls:focus {
+    outline: none;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(232, 232, 232);
+    padding: 10px;
+}
+
+#em_ail {
+    width: 300px;
+    margin-bottom: 1rem;
+    height: 40px;
+    background-color: #b12f30;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#em_ail:focus {
+    outline: none;
+}
+
+#email::placeholder {
+    font-size: 13px;
+    color: rgb(205, 205, 205);
+}
+
+#email:focus {
+    outline: none;
+}
+
+/* select option{
+    font-size: 13px;
+    color:rgb(232, 232, 232);
+} */
+.one {
+    flex: 2;
+    min-width: 300px;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+    /* outline: 2px solid blue; */
+}
+
+.autogrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    /* outline: 2px solid black; */
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* outline: 2px solid rgb(97, 176, 28); */
+}
+
+.imgg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_g {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.child p {
+    margin-bottom: 0.5rem;
+}
+
+.youraddchild {
+    flex: 1;
+}
+
+.youraddchild:nth-child(1) {
+    flex: 0.3;
+}
+
+.youraddchild:nth-child(2) {
+    flex: 3;
+}
+
+.youraddchild:nth-child(3) {
+    flex: 0.3;
+}
+
+.pmi {
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    width: min-content;
+    display: flex;
+    margin-left: 30px;
+}
+
+.countt[type="text"] {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    outline: none;
+    border: none;
+}
+
+.icon22 {
+    width: 30px;
+    height: 30px;
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2 {
+    flex: 1;
+}
+
+.chi__ld2 {
+    flex: 1;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.childd {
+    flex: 0.5;
+    margin-bottom: 1rem;
+}
+
+#firstname {
+    min-width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid rgb(232, 232, 232);
+}
+
+#firstname::placeholder {
+    font-size: 13px;
+    color: rgb(205, 205, 205);
+}
+
+#firstname:focus {
+    outline: none;
+}
+
+#cartimg {
+    width: 100px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+
+#add_cng_btn:focus {
+    outline: none;
+    border: none;
+}
+
+#add_cng_btn:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+
+#add_cng_btn {
+    height: 2vh;
+    width: 100px !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4, #4e4376);
+    /* box-shadow: 0 4px 8px 0 rgba(161, 161, 161, 0.75); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+#login:focus {
+    outline: none;
+    border: none;
+}
+
+#login:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+
+#login {
+    height: 5vh;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4, #4e4376);
+    /* box-shadow: 0 4px 8px 0 rgba(161, 161, 161, 0.75); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+#logincancel {
+    height: 5vh;
+    width: 10vh;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: gray;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+#logincancel:focus {
+    outline: none;
+    border: none;
+}
+
+#over_write:checked::before {
+
+    background-color: #FF5733 !important;
+    border-color: #FF5733 !important;
+
+}
+
+/* #logincancel:hover {
+    background-position: 100% 0;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+} */
+
+
+
+
+
+#save:focus {
+    outline: none;
+    border: none;
+}
+
+#save:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+
+#save {
+    height: 5vh;
+    width: 20vh;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4, #4e4376);
+    /* box-shadow: 0 4px 8px 0 rgba(161, 161, 161, 0.75); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+#close {
+    border: none;
+
+    border-radius: 5px;
+}
+
+#close:focus {
+    outline: none;
+    border: none;
+}
+
+#close:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #FFF !important;
+}
+
+#close {
+    height: 5vh;
+    width: 20vh;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a73d3c, #e96c6c, #ff7272d4, #4e4376);
+    /* box-shadow: 0 4px 8px 0 rgba(161, 161, 161, 0.75); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 1134px) {
+    #blamt {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home_new {
+        margin-left: 21px !important;
+        margin-top: 40px;
+        color: #b12f30;
+        margin-bottom: 5px !important;
+    }
+}
+
+
+@media only screen and (max-width: 722px) {
+    #blamt {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    #blamt {
+        margin-top: 13%;
+        margin-bottom: -8%;
+    }
+
+    #save {
+        width: 40px;
+        font-size: 12px;
+    }
+
+    #close {
+        width: 40px;
+        font-size: 12px;
+    }
+}

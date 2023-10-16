@@ -1,0 +1,26 @@
+.box_shadoww {
+  box-shadow: 10px 10px 10px #e0e0e0aa;
+}
+.discount-field,
+.color-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.discount-field label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0;
+}
+
+.discount-field label span {
+  color: #8080809c;
+}
+.price-input-field input{
+height: auto !important;
+}
+.newArrival-wrapper .wishlist-icon{
+  top: 48px;
+}

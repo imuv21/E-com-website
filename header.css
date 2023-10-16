@@ -1,0 +1,7 @@
+
+body{
+    overflow-x: hidden;
+}
+.box_shadoww {
+    box-shadow: 10px 10px 10px #e0e0e0aa;
+}

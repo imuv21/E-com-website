@@ -1,0 +1,37 @@
+#abclose1{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 170px;
+    right:480px;
+}
+
+#abclose2{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:100px;
+    right:460px;
+}
+#abclose3{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:30px;
+    right:460px;
+}
+#abclose4{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:190px;
+    right:460px;
+}

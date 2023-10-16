@@ -1,0 +1,132 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    /* outline: 2px solid hotpink; */
+}
+
+.grid-container-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* outline: 2px solid yellowgreen; */
+}
+
+.grid-item {
+    /* background-color: #3498db; */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* outline: 2px solid blue; */
+}
+
+.grid-item img {
+    width: 100%;
+    height: 250px;
+    aspect-ratio: 3/3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-item-top {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    white-space: nowrap;
+}
+.grid-item-topp {
+    padding: 20px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 650;
+}
+
+.blogheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0;
+    padding: 10px;
+    background-color: rgb(167,61,60);
+    color: white;
+}
+.haha{
+    position: relative;
+    /* max-width: 130%; */
+    cursor: pointer;
+}
+.text-overlayyy {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 0px;
+}
+.blogsearch{
+    width: 95% !important;
+    border-radius: 5px !important;
+    border-width: 1px;
+}
+.blogsearch:focus{
+ outline: none;
+}
+#blogbtn:focus{
+    outline: none;
+}
+#blogbtn{
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(167,61,60);
+    border-color: rgb(167,61,60);
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.textimg{
+    margin-top: 7%;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .grid-item-top{
+        padding: 2px;
+    }
+    .grid-item-topp{
+        padding: 2px;
+    }
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogsearch{
+        width: 85% !important;
+    }    
+}

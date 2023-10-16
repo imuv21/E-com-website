@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Blog</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/blog.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/cart.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/searchbar.css">
+	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/home.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+   
+</head>
+
+<body>
+	<header class="mainHeader not-tranparent  box_shadoww " id="mainheaderindex">
+
+
+
+		<!-- Modal -->
+
+		<div class="topbar">
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-8 col-md-8 offset-md-2 text-center txt-paragraph d-md-mobile">
+						<span class="blink">AVAIL 10% OFF ON YOUR FIRST ORDER- USE CODE WELCOME10 I
+							SHIPPING WORLDWIDE
+						</span>
+					</div>
+
+					<div class="col-12 desktop-none">
+						<marquee>
+							AVAIL 10% OFF ON YOUR FIRST ORDER- USE CODE WELCOME10 I
+							SHIPPING WORLDWIDE
+							</span>
+						</marquee>
+					</div>
+
+
+
+					<div class="col-4 col-md-2 text-right sociallist d-md-mobile">
+						<div class="social d-flex">
+							<div class="icon">
+							  <a href="https://www.facebook.com/satishreesarees">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.1194 5.32003H16.9994V2.14003C16.0891 2.04538 15.1745 1.99865 14.2594 2.00003C11.5394 2.00003 9.67938 3.66003 9.67938 6.70003V9.32003H6.60938V12.88H9.67938V22H13.3594V12.88H16.4194L16.8794 9.32003H13.3594V7.05003C13.3594 6.00003 13.6394 5.32003 15.1194 5.32003Z"
+										fill="grey" />
+								</svg>
+							  </a>
+
+							</div>
+							<div class="icon">
+							   <a href="https://www.instagram.com/satishreesarees">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.75 12C15.75 12.7417 15.5301 13.4667 15.118 14.0834C14.706 14.7001 14.1203 15.1807 13.4351 15.4645C12.7498 15.7484 11.9958 15.8226 11.2684 15.6779C10.541 15.5333 9.8728 15.1761 9.34835 14.6516C8.8239 14.1272 8.46675 13.459 8.32205 12.7316C8.17736 12.0042 8.25162 11.2502 8.53545 10.5649C8.81928 9.87971 9.29993 9.29404 9.91661 8.88199C10.5333 8.46993 11.2583 8.25 12 8.25C12.9936 8.25309 13.9456 8.64917 14.6482 9.35176C15.3508 10.0544 15.7469 11.0064 15.75 12ZM23.7188 6.84375V17.1562C23.7188 18.8967 23.0273 20.5659 21.7966 21.7966C20.5659 23.0273 18.8967 23.7188 17.1562 23.7188H6.84375C5.10327 23.7188 3.43407 23.0273 2.20336 21.7966C0.972654 20.5659 0.28125 18.8967 0.28125 17.1562V6.84375C0.28125 5.10327 0.972654 3.43407 2.20336 2.20336C3.43407 0.972654 5.10327 0.28125 6.84375 0.28125H17.1562C18.8967 0.28125 20.5659 0.972654 21.7966 2.20336C23.0273 3.43407 23.7188 5.10327 23.7188 6.84375ZM17.625 12C17.625 10.8875 17.2951 9.79994 16.677 8.87492C16.0589 7.94989 15.1804 7.22892 14.1526 6.80318C13.1248 6.37744 11.9938 6.26604 10.9026 6.48308C9.81147 6.70013 8.80919 7.23585 8.02252 8.02252C7.23585 8.80919 6.70013 9.81147 6.48308 10.9026C6.26604 11.9938 6.37744 13.1248 6.80318 14.1526C7.22892 15.1804 7.94989 16.0589 8.87492 16.677C9.79994 17.2951 10.8875 17.625 12 17.625C13.4918 17.625 14.9226 17.0324 15.9775 15.9775C17.0324 14.9226 17.625 13.4918 17.625 12ZM19.5 5.90625C19.5 5.62812 19.4175 5.35624 19.263 5.12498C19.1085 4.89372 18.8889 4.71348 18.6319 4.60704C18.3749 4.50061 18.0922 4.47276 17.8194 4.52702C17.5466 4.58128 17.296 4.71521 17.0994 4.91188C16.9027 5.10855 16.7688 5.35912 16.7145 5.6319C16.6603 5.90469 16.6881 6.18744 16.7945 6.4444C16.901 6.70136 17.0812 6.92098 17.3125 7.0755C17.5437 7.23003 17.8156 7.3125 18.0938 7.3125C18.4667 7.3125 18.8244 7.16434 19.0881 6.90062C19.3518 6.6369 19.5 6.27921 19.5 5.90625Z"
+										fill="grey" />
+								</svg>
+							   </a>
+							</div>
+							<div class="icon">
+							   <a href="https://web.whatsapp.com/">
+								<svg width="25" height="25" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z"
+										fill="#000000" />
+								</svg>
+							   </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="destop-header">
+			<div class="row py-4">
+				<div class="col-4 col-sm-4 col-md-4  header-logo1" style="display: flex; align-items: center;">
+					<a href="index.html">
+                        <img src="assets/images/satishree-icon.png" width="50%" class="side-navbar">
+                    </a>
+
+				</div>
+				<div class="col-md-4 col-sm-6 col-6  text-center header-logo2"
+					style="display: flex; align-items: center;">
+					<a href="index.html" class="logo"><img src="assets/images/satishree-logo.png" width="50%"
+							class="header-logo"></a>
+				</div>
+				<div class=" col-md-3 col-sm-4 col-4  mt-auto mb-3 widgth-icon">
+					<div class="icons sideicons d-flex only-desktop-show">
+
+
+						<div class="icon search" data-toggle="modal" data-target="#search-modal">
+							<img src="assets/images/nav-icon-1.png">
+						</div>
+						<div class="icon wishlist">
+							<a href="wishlist.html">
+								<img src="assets/images/nav-icon-2.png">
+							</a>
+						</div>
+						<div class="icon cart">
+							<a class="" href="cart.html">
+								<img src="assets/images/nav-icon-3.png">
+								<span class="count">1</span>
+							</a>
+						</div>
+						<div class="icon user">
+							<a type="button"  data-toggle="modal" data-target="#loginModal" class="nav-link" style="color:black; font-weight: light;"
+							data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+							aria-expanded="false" >
+								<img src="assets/images/nav-icon-4.png">
+							</a>
+							<div class="dropdown-menu" style="margin-right: 30px; width: 100px;">
+								<a class="dropdown-item" data-toggle="modal" data-target="#profileModal">Profile</a>
+								<a class="dropdown-item" href="orders.html">My Orders</a>
+								<a class="dropdown-item" href="blog.html">Blog</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto ml-auto">
+						<!-- <li class="nav-item active">
+							<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="NewArrivals.html"> NEW
+								ARRIVALS </a>
+						</li>
+						<div id="common_parent">
+							<li class="nav-item dropdown">
+								<a class="nav-link but_t_on" id="hove_r_Button" href="NewArrivals.html">SAREE</a>
+							</li>
+							<!--Saree Modal -->
+							<div class="mo_d_al" id="my_M_odal">
+								<div class="modal_c_ontent">
+									<div class="row ">
+										<div class="col-3 saree_frop saree_modal_row">
+											<ul style="list-style: none;">
+												<li>
+													<a href="NewArrivals.html" style="color: #b12f30; font-size: 16px;">
+														Shop By Fabric
+													 </a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 1</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 2</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 3</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 4</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 5</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 6</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 7</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Fabric Option 8</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-3 saree_frop saree_modal_row">
+											<ul style="list-style: none;">
+												<li>
+													<a href="NewArrivals.html" style="color: #b12f30; font-size: 16px;">
+													Shop By Craft
+													</a>
+													
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 1</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 2</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 3</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 4</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 5</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 6</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 7</a>
+												</li>
+												<li style="list-style: none;"><a href="NewArrivals.html">Craft Option 8</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-4">
+											<a href="#">
+												<img style="width: 145%; height: auto; margin-top: 15px; margin-right: -10px;"
+												src="https://media.istockphoto.com/id/1331734513/photo/view-of-indian-woman-fashion-and-tradtional-wear-sarees-in-shop-display.jpg?s=612x612&w=0&k=20&c=PxIU-OUQUZ-h7bBibATmXk_9HLK72w8j4a9wyAvppfk="
+												alt="">
+											</a>
+										</div>
+	
+									</div>
+								</div>
+							</div>
+						</div>
+						<li class="nav-item">
+							<li class="nav-item">
+								<a class="nav-link" href="bestsellers.html">BEST SELLERS</a>
+							</li>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT US </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactus.html">CONTACT US </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sale.html"> SALE </a>
+						</li>
+						<!-- <li class="desktop-none">
+							<div class="icons sideicons d-flex only-mobile-show ">
+								<div class="icon search" data-toggle="modal" data-target="#search-modal">
+									<img src="assets/images/nav-icon-1.png">
+								</div>
+								<div class="icon wishlist">
+									<a href="wishlist.html">
+										<img src="assets/images/nav-icon-2.png">
+									</a>
+								</div>
+								<div class="icon cart">
+									<a class="cartt" href="cart.html">
+										<img src="assets/images/nav-icon-3.png">
+									</a>
+								</div>
+								<div class="icon user">
+									<a type="button" class="" data-toggle="modal" data-target="#loginModal">
+										<img src="assets/images/nav-icon-4.png">
+									</a>
+								</div>
+
+							</div>
+						</li> -->
+
+
+
+					</ul>
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="row justify-content-start home_new">
+        Home /<strong  aria-current="page">&nbsp;Blogs</strong>
+     </div>
+	<!-- <div class="breadcrumb-container">
+        <nav aria-label="breadcrumb" class="custom-breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+            </ol>
+        </nav>
+    </div> -->
+    
+
+
+
+
+	
+
+
+	<div class="container">
+       <div class="row mt-3">
+		<div class="col-lg-6 col-12 grid-item-topp">
+            <span style="color:black;">All</span> <span style="color: rgb(167,61,60)">Blogs</span>
+        </div>
+        <div class="col-lg-6 col-12 grid-item-top" style="position: relative;">
+            <input type="text" class="blogsearch" placeholder="Search..."><img src="assets/images/searchblog.png" style="width: 30px; cursor: pointer; position: absolute;
+            top: 50%; right: 50px; transform: translateY(-50%);" alt="">
+        </div>
+	   </div>
+    </div>
+	<section class="container mb-4">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12 grid-item">
+				<a href="blog-page-detail.html" style="text-decoration: none; color: white">
+					<div class="haha">
+						<img src="https://code1.online:3001/uploads/blog/1685903226782.gif" alt="Image 1">
+						<div class="text-overlayyy">
+							Navigating the Future of Staffing: Emerging Trends in Staff Augmentation
+						</div>
+					</div>
+				</a>
+				
+				<p class="textimg">Tags: <strong>Post-Pandemic Business Recovery</strong></p>
+				<a href="blog-page-detail.html"><button id="blogbtn" href="blog-page-detail.html">READ MORE</button></a>
+			</div>
+		</div>
+	
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="grid-containerall" id="pdg" style="background-color: #F9F6E2">
+		<div class="grid-itemall" id="mrtp99">
+			<h2 class="fonttt">SHOP SAREES</h2>
+			<p><a class="ftrlist" href="#">AJRAKH</a></p>
+			<p><a class="ftrlist" href="#">DABU</a></p>
+			<p><a class="ftrlist" href="#">BAGRU</a></p>
+			<p><a class="ftrlist" href="#">BLOCK</a></p>
+			<p><a class="ftrlist" href="#">MULTANI</a></p>
+			<p><a class="ftrlist" href="#">SHAHI DABU</a></p>
+			<p><a class="ftrlist" href="#">BLACK DABU</a></p>
+			<p><a class="ftrlist" href="#">DABU AJRAKH</a></p>
+		</div>
+		<div class="grid-itemall">
+			<h2 class="fonttt">POLICIES</h2>
+			<p><a class="ftrlist" href="#">RETURN POLICY</a></p>
+			<p><a class="ftrlist" href="PrivacyPolicy.html">PRIVACY POLICY</a></p>
+			<p><a class="ftrlist" href="Terms.html">TERMS AND CONDITION</a></p>
+
+		</div>
+		<div class="grid-itemall">
+			<h2 class="fonttt">ABOUT SATISHREE</h2>
+			<p><a class="ftrlist" href="contactus.html">ABOUT US</a></p>
+			<p><a class="ftrlist" href="contactus.html">CONTACT US</a></p>
+		</div>
+		<!-- <div class="grid-itemallimg">
+			<img class="img_footer" src="https://i1.sndcdn.com/artworks-000062423439-lf7ll2-t500x500.jpg" alt="">
+		</div> -->
+	</div>
+
+	<div class="container" id="pdgm" style="background-color: #F9F6E2">
+		<div class="row justify-content-center">
+			<h2 class="fonttt accordion">SHOP SAREES</h2>
+			<div class="panel">
+				<p><a class="ftrlist" href="#">AJRAKH</a></p>
+				<p><a class="ftrlist" href="#">DABU</a></p>
+				<p><a class="ftrlist" href="#">BAGRU</a></p>
+				<p><a class="ftrlist" href="#">BLOCK</a></p>
+				<p><a class="ftrlist" href="#">MULTANI</a></p>
+				<p><a class="ftrlist" href="#">SHAHI DABU</a></p>
+				<p><a class="ftrlist" href="#">BLACK DABU</a></p>
+				<p><a class="ftrlist" href="#">DABU AJRAKH</a></p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<h2 class="fonttt accordion">POLICIES</h2>
+			<div class="panel">
+				<p><a class="ftrlist" href="#">RETURN POLICY</a></p>
+				<p><a class="ftrlist" href="PrivacyPolicy.html">PRIVACY POLICY</a></p>
+				<p><a class="ftrlist" href="Terms.html">TERMS AND CONDITION</a></p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<h2 class="fonttt accordion">ABOUT SATISHREE</h2>
+			<div class="panel">
+				<p><a class="ftrlist" href="contactus.html">ABOUT US</a></p>
+				<p><a class="ftrlist" href="contactus.html">CONTACT US</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="grid-containerall" id="blapdf" style="background-color: #F9F6E2; ">
+		<div class="grid-itemall" id="emasub">
+			<p id="desktopview"><strong>Subscribe to receive updates. access Exculsive Detail, and more
+				</strong>
+			</p>
+			<p id="mobileview"><strong>Subscribe to receive updates.<br> access Exculsive Detail, and more
+				</strong>
+			</p>
+			<div style="white-space: nowrap;"><input type="email" name="email" placeholder="Your Email"
+					class="emailall"> <button class="btn-hoverall">SUBSCRIBE</button></div>
+			<p class="after-input"><span>by clicking the subscribe button</span>
+				<a href="#">Privacy Policy</a><br> &
+				<a href="#">Terms and Condition</a>
+			</p>
+			<strong>@2023
+				Satishree . All
+				rights Reserved
+			</strong>
+		</div>
+	</div>
+	<!-- saree modal -->
+	<!-- saree modal -->
+	<script>
+		// Get references to the button and modal
+		const hoverButton = document.getElementById('hove_r_Button');
+		const modal = document.getElementById('my_M_odal');
+		const comParent = document.getElementById('common_parent');
+
+		// Add event listener to show the modal when hovering over the button
+		hoverButton.addEventListener('mouseenter', () => {
+			modal.style.display = 'block';
+			modal.style.opacity = '1'; // Change opacity to 1 for a smooth transition
+		});
+
+		// Add event listener to hide the modal when clicking outside of it
+		window.addEventListener('click', (event) => {
+			if (event.target === modal) {
+				modal.style.display = 'none';
+				modal.style.opacity = '0'; // Change opacity back to 0
+			}
+			// setTimeout(() => {
+			//     modal.style.backgroundColor = 'rgba(0, 116, 217, 1)';
+			// }, 10);
+		});
+
+		// Add event listener to hide the modal when the mouse leaves it
+		comParent.addEventListener('mouseleave', () => {
+			modal.style.display = 'none';
+			modal.style.opacity = '0'; // Change opacity back to 0
+		});
+		
+
+	</script>
+
+
+    <script>
+
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("mainheaderindex");
+
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        const icon = document.getElementById('showDiv');
+        const hiddenDiv = document.getElementById('hiddenDiv');
+
+        icon.addEventListener('click', () => {
+            hiddenDiv.classList.add("class1");
+        });
+        hiddenDiv.addEventListener('mouseleave', () => {
+            hiddenDiv.classList.remove("class1");// Hide the hidden div
+        });
+
+    </script>
+
+
+
+<!-- saree droopdown -->
+<script>
+
+	// Get references to the button and the dropdown menu
+	const toggle_Button = document.getElementById("toggle__Button");
+	const dropdown_Menu = document.getElementById("dropdown__Menu");
+
+	// Function to toggle the dropdown menu's visibility
+	function toggleDropdown() {
+		if (dropdown_Menu.style.display === "block") {
+			dropdown_Menu.style.display = "none";
+		} else {
+			dropdown_Menu.style.display = "block";
+		}
+	}
+
+	// Add a click event listener to the button
+	toggle_Button.addEventListener("click", toggleDropdown);
+</script>
+
+
+<!-- <script>
+	const ddi = document.getElementsByClassName('dd_i');
+	ddi.addEventListener('click', function () {
+		window.location.href = 'NewArrivals.html';
+	});
+</script> -->
+<script>
+	const ddi = document.getElementsByClassName('dd_i');
+	for (let i = 0; i < ddi.length; i++) {
+		ddi[i].addEventListener('click', function () {
+			window.location.href = 'NewArrivals.html';
+		});
+	}
+</script>
+
+
+
+
+
+	<!--Profile Modal -->
+	<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		aria-hidden="true">
+		<button id="profileclose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="roww">
+						<h2>My Profile</h2>
+					</div>
+					<div class="roww">
+						<div class="newchild2" style="text-align: left;">
+							<h5>Name : </h5>
+						</div>
+						<div class="newchild2" style="text-align: right;">
+							<h5>Gladys Johnson</h5>
+						</div>
+					</div>
+					<div class="roww">
+						<div class="newchild2" style="text-align: left;">
+							<h5>Email :</h5>
+						</div>
+						<div class="newchild2" style="text-align: right;">
+							<h5>gladysjohn21@gmail.com</h5>
+						</div>
+					</div>
+					<div class="roww">
+						<div class="newchild2" style="text-align: left;">
+							<h5>Phone : </h5>
+						</div>
+						<div class="newchild2" style="text-align: right;">
+							<h5>+91 3458-83-2435</h5>
+						</div>
+					</div>
+				</div>
+				<div class="roww" style="margin-bottom: 4%;">
+					<div class="newchild2">
+						<button type="button" class="pclose" data-dismiss="modal">Close</button>
+					</div>
+					<div class="newchild2">
+						<button id="editButton" data-toggle="modal" data-target="#editProfileModal" type="button"
+							class="pedit">Edit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- edit profile modal -->
+
+	<div class="modal fade" id="editProfileModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		aria-hidden="true">
+		<button id="editprofileclose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<form id="editprofileForm">
+						<div class="roww">
+							<h2>Edit Profile</h2>
+						</div>
+						<div class="roww">
+							<div class="newchild2" style="text-align: left;">
+								<h5>Name : </h5>
+							</div>
+							<div class="newchild2" style="text-align: right;">
+								<input class="editname" placeholder="Gladys Johnson" type="text" />
+							</div>
+						</div>
+						<div class="roww">
+							<div class="newchild2" style="text-align: left;">
+								<h5>Email :</h5>
+							</div>
+							<div class="newchild2" style="text-align: right;">
+								<input class="editname" placeholder="gladysjohn21@gmail.com" type="email" id="email"
+									name="email" required />
+							</div>
+						</div>
+						<div class="roww">
+							<span class="validationerror" id="emailError"></span>
+						</div>
+						<div class="roww">
+							<div class="newchild2" style="text-align: left;">
+								<h5>Phone : </h5>
+							</div>
+							<div class="newchild2" style="text-align: right;">
+								<input class="editname" placeholder="+91 3458-83-2435" type="text" id="phoneNumber"
+									name="phoneNumber" />
+							</div>
+						</div>
+						<div class="roww">
+							<span class="validationerror" id="phoneError"></span>
+						</div>
+
+						<div class="roww">
+							<div class="newchild2">
+								<button type="button" class="pclose" data-dismiss="modal">Close</button>
+							</div>
+							<div class="newchild2">
+								<button id="saveButton" type="button" type="submit" data-dismiss="modal" class="pedit"
+									disabled>Save</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<!-- login modal -->
+
+
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+		aria-hidden="true">
+		<button id="abclose1" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="mask">
+						<img class="home_image" src="assets/images/saree.jpg" />
+
+					</div>
+					<form id="phoneForm2">
+						<div class="">
+							<div class="row justify-content-center">
+								<div class="input-group mb-3 row justify-content-center">
+									<div class="form-group col-lg-auto">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>+91</option>
+											<option>+92</option>
+											<option>+93</option>
+											<option>+94</option>
+											<option>+95</option>
+										</select>
+									</div>
+									<div class=" col-lg-auto w-75">
+										<input type="text" id="phoneNumber2" name="phoneNumber2"
+											placeholder="Enter phone number" maxlength="10" class="form-control"
+											aria-label="Phone Number" />
+									</div>
+									<div class="col-lg-auto w-75">
+										<span class="validationerror" id="phoneError2"></span>
+									</div>
+
+								</div>
+								<div class="col-lg-auto w-100">
+									<a class="w-100" type="button" data-toggle="modal" data-target="#otpModal"><button
+											id="loginButton" type="submit" class="btn btn-block"
+											disabled>Login/Signup</button></a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- phone number validation -->
+
+	<script>
+		const phoneInput2 = document.getElementById('phoneNumber2');
+		const phoneError2 = document.getElementById('phoneError2');
+		const submitButton2 = document.getElementById('loginButton');
+
+		// Regular expression to validate phone numbers 
+		const Regex = /^\d{10}$/;
+
+		phoneInput2.addEventListener('input', function () {
+			const phoneNumber = phoneInput2.value.trim();
+
+			if (Regex.test(phoneNumber)) {
+				phoneError2.textContent = '';
+				submitButton2.removeAttribute('disabled');
+			} else {
+				phoneError2.textContent = 'Please enter a valid 10-digit phone number.';
+				submitButton2.setAttribute('disabled', 'true');
+			}
+		});
+
+		document.getElementById('phoneForm2').addEventListener('submit', function (event) {
+			event.preventDefault();
+			const phoneNumber = phoneInput2.value.trim();
+			alert(`Phone number submitted: ${phoneNumber}`);
+		});
+	</script>
+
+
+    
+
+
+
+
+
+
+
+
+
+	<div class="modal fade" id="otpModal" tabindex="-1" role="dialog" aria-labelledby="otpModalLabel"
+		aria-hidden="true">
+		<button id="abclose2" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="mask">
+						<img class="home_image" src="assets/images/saree.jpg" />
+
+					</div>
+					<form id="otpForm">
+						<div class="roww">
+							<h2>Enter OTP</h2>
+						</div>
+						<div class="roww" style="display: flex; text-align: justify;">
+							<p>Enter the 6 digit OTP sent to your mobile number +919834514539</p>
+						</div>
+						<div class="roww">
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit1"
+									oninput="moveToNext(this, 'digit2')">
+							</div>
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit2"
+									oninput="moveToNext(this, 'digit3')">
+							</div>
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit3"
+									oninput="moveToNext(this, 'digit4')">
+							</div>
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit4"
+									oninput="moveToNext(this, 'digit5')">
+							</div>
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit5"
+									oninput="moveToNext(this, 'digit6')">
+							</div>
+							<div class="newchild2">
+								<input class="otp" type="text" maxlength="1" size="1" id="digit6"
+									oninput="validateOtp()">
+							</div>
+						</div>
+						<div class="roww">
+							<p id="otpStatus"></p>
+						</div>
+						<div class="roww">
+							<p>Didn't Received? <button id="resend" disabled>Resend OTP</button> in <span id="timer">2:00</span></p>
+						</div>
+						<div class="roww">
+							<a class="w-100" type="button" data-toggle="modal" data-target="#signupModal">
+								<button id="otpButton" type="submit" class="btn btn-block" disabled>
+									Continue
+								</button>
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- resend otp timer  -->
+	
+
+	<script>
+        document.getElementById('loginButton').addEventListener('click', function () {
+            // Initialize timer values
+            let minutes = 1;
+            let seconds = 59;
+            const timerElement = document.getElementById('timer');
+            const resend = document.getElementById('resend');
+
+            // Update timer every second
+            const timerInterval = setInterval(function () {
+                if (minutes === 0 && seconds === 0) {
+                    clearInterval(timerInterval);
+                    resend.disabled = false;
+                    
+                } else {
+                    // Display the timer in the format 1:59
+                    timerElement.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                    
+                    if (seconds === 0) {
+                        minutes--;
+                        seconds = 59;
+                    } else {
+                        seconds--;
+                    }
+                }
+            }, 1000);
+        });
+    </script>
+
+
+
+	<!-- otp validation -->
+	<script>
+		function moveToNext(currentInput, nextInputId) {
+			if (currentInput.value.length === 1) {
+				document.getElementById(nextInputId).focus();
+			}
+		}
+
+		function validateOtp() {
+			const otpDigits = [];
+			for (let i = 1; i <= 6; i++) {
+				const digit = document.getElementById(`digit${i}`).value;
+				otpDigits.push(digit);
+			}
+			const enteredOtp = otpDigits.join('');
+			// Replace '123456' with your actual OTP for validation
+			const actualOtp = '123456';
+
+			if (enteredOtp === actualOtp) {
+				document.getElementById('otpStatus').textContent = 'OTP is valid.';
+				document.getElementById('otpStatus').style.color = 'green';
+				document.getElementById('otpButton').disabled = false; // Enable the submit button
+			} else {
+				document.getElementById('otpStatus').textContent = 'OTP is invalid. Please try again.';
+				document.getElementById('otpStatus').style.color = 'red';
+				document.getElementById('otpButton').disabled = true;
+			}
+		}
+	</script>
+
+
+	<!-- phone validation  -->
+
+	<!-- <script>
+		const phoneInput = document.getElementById('phoneNumber');
+		const phoneError = document.getElementById('phoneError');
+		const submitButton = document.getElementById('loginButton');
+
+		const phoneRegex = /^\d{10}$/;
+
+		phoneInput.addEventListener('input', function () {
+			const phoneNumber = phoneInput.value.trim();
+
+			if (phoneRegex.test(phoneNumber)) {
+				phoneError.textContent = '';
+				submitButton.removeAttribute('disabled');
+			} else {
+				phoneError.textContent = 'Please enter a valid 10-digit phone number.';
+				submitButton.setAttribute('disabled', 'true');
+			}
+		});
+
+		document.getElementById('phoneForm').addEventListener('submit', function (event) {
+			event.preventDefault();
+			const phoneNumber = phoneInput.value.trim();
+			alert(`Phone number submitted: ${phoneNumber}`);
+		});
+	</script> -->
+
+
+	<!-- edit-profile-number-validation -->
+
+	<script>
+		const editNumberInput = document.getElementById('phoneNumber');
+		const editNumberError = document.getElementById('phoneError');
+		const editProfileButton = document.getElementById('saveButton');
+
+		const emailInput = document.getElementById("email");
+		const emailError = document.getElementById("emailError");
+
+		const editNumberRegex = /^\d{10}$/;
+
+		editNumberInput.addEventListener('input', function () {
+			const phoneNumber = editNumberInput.value.trim();
+
+			if (editNumberRegex.test(phoneNumber)) {
+				editNumberError.textContent = '';
+				editProfileButton.removeAttribute('disabled');
+			} else {
+				editNumberError.textContent = 'Please enter a valid 10-digit phone number.';
+				editProfileButton.setAttribute('disabled', 'true');
+			}
+		});
+
+		document.getElementById('editprofileForm').addEventListener('submit', function (event) {
+			event.preventDefault();
+			const phoneNumber = editNumberInput.value.trim();
+			alert(`Phone number submitted: ${phoneNumber}`);
+		});
+
+
+		// edit-profile-email-validation
+		// const editProfileButton  = document.getElementById("saveButton");
+
+		emailInput.addEventListener("input", function () {
+			if (validateEmail(emailInput.value)) {
+				emailError.textContent = "";
+				editProfileButton.disabled = false;
+			} else {
+				emailError.textContent = "Please enter a valid email address.";
+				editProfileButton.disabled = true;
+			}
+		});
+
+		function validateEmail(email) {
+			const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+			return emailPattern.test(email);
+		}
+
+		document.getElementById("editprofileForm").addEventListener("submit", function (event) {
+			event.preventDefault();
+			alert("Email submitted: " + emailInput.value);
+		});
+	</script>
+
+
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+		aria-hidden="true">
+		<button id="abclose3" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="mask">
+						<img class="home_image" src="assets/images/saree.jpg" />
+
+					</div>
+					<form id="createAccountForm">
+						<div class="">
+							<div class="row justify-content-center">
+								<div class="col-lg-auto">
+									<h2>Create Account</h2>
+								</div>
+								<div class="col-lg-auto"  style="display: flex; text-align: justify;">
+									<p>An account does not currently exist for, enter your details to <br>sign up</p>
+								</div>
+								<div class="input-group mb-3 row justify-content-center">
+									<div class="form-group col-lg-auto">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>Ms</option>
+											<option>Mrs</option>
+										</select>
+									</div>
+									<div class="form-group col-lg-auto w-75">
+										<input type="text" class="form-control" placeholder="Enter full name"
+											aria-label="Name" />
+									</div>
+								</div>
+								<div class="input-group mb-1 row justify-content-center">
+									<div class="form-group col-lg-auto">
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>+91</option>
+											<option>+92</option>
+											<option>+93</option>
+											<option>+94</option>
+											<option>+95</option>
+										</select>
+									</div>
+									<div class="form-group col-lg-auto w-75">
+										<input type="text" class="form-control" placeholder="123-456-7890"
+											aria-label="Phone Number" id="caphoneNumber" maxlength="10" name="caphoneNumber" />
+									</div>
+								</div>
+								<div class="col-md-auto w-100 mb-3">
+									<span class="validationerror" id="caphoneError"></span>
+								</div>
+								<div class="col-md-auto w-100 mb-3">
+									<input type="email" class="form-control" id="caemail" aria-describedby="emailHelp"
+										placeholder="Enter email" id="caemail">
+								</div>
+								<div class="col-md-auto w-100 mb-3">
+									<span class="validationerror" id="caemailError"></span>
+								</div>
+								<div class="col-lg-auto w-100">
+									<a type="button" class="w-100" data-toggle="modal"
+										data-target="#verificationModal"><button id="signupButton" type="submit"
+											class="btn btn-block" disabled>Next</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<script>
+
+		//<!-- create-account-number-validation -->
+
+
+		const caNumberInput = document.getElementById('caphoneNumber');
+		const caNumberError = document.getElementById('caphoneError');
+		const caButton = document.getElementById('signupButton');
+
+		const caemailInput = document.getElementById("caemail");
+		const caemailError = document.getElementById("caemailError");
+
+		const caNumberRegex = /^\d{10}$/;
+
+		caNumberInput.addEventListener('input', function () {
+			const phoneNumber = caNumberInput.value.trim();
+
+			if (caNumberRegex.test(phoneNumber)) {
+				caNumberError.textContent = '';
+				caButton.removeAttribute('disabled');
+			} else {
+				caNumberError.textContent = 'Please enter a valid 10-digit phone number.';
+				caButton.setAttribute('disabled', 'true');
+			}
+		});
+
+		document.getElementById('createAccountForm').addEventListener('submit', function (event) {
+			event.preventDefault();
+			const phoneNumber = caNumberInput.value.trim();
+			alert(`Phone number submitted: ${phoneNumber}`);
+		});
+
+
+		// create-account-email-validation
+		// const editProfileButton  = document.getElementById("saveButton");
+
+		caemailInput.addEventListener("input", function () {
+			if (validateEmail(caemailInput.value)) {
+				caemailError.textContent = "";
+				caButton.disabled = false;
+			} else {
+				caemailError.textContent = "Please enter a valid email address.";
+				caButton.disabled = true;
+			}
+		});
+
+		function validateEmail(email) {
+			const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+			return emailPattern.test(email);
+		}
+
+		document.getElementById("createAccountForm").addEventListener("submit", function (event) {
+			event.preventDefault();
+			alert("Email submitted: " + caemailInput.value);
+		});
+
+	</script>
+
+
+
+
+
+	<!--Coupon Modal -->
+	<div class="modal fade" id="couponsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<button id="profileclose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="roww3 mb-2">
+						Apply Coupons
+					</div>
+					<div class="roww">
+						<div class="newchild3">
+							<input type="text" id="couponCode" placeholder="Enter Coupon Code" class="cpninput">
+						</div>
+						<div class="newchild3">
+							<button id="applyButton" onclick="applyCoupon()"
+								style="display: flex; align-items: center; justify-content: center;">Apply</button>
+						</div>
+					</div>
+					<div class="roww mb-2" style="text-align: center;">
+						<p id="errorText"></p>
+					</div>
+					<div class="roww3 mb-2">
+						Available Coupons
+					</div>
+					<div class="roww mb-2">
+						<div class="cartcard2 mb-1" style="height: fit-content;">
+							<div class="roww">
+								<div class="child" style="display: flex; align-items: center; justify-content: center;">
+									<p>WELCOME</p>
+								</div>
+								<div class="child" style="display: flex; align-items: center; justify-content: center;">
+									<strong>Satisaree Welcome Offer</strong>
+									<p class="mt-3">Join our saree tribe with a one time offer. TnC apply</p>
+								</div>
+								<div class="child" style="display: flex; align-items: center; justify-content: center;">
+									<button id="apply" onclick="applyCoupon2()">Apply</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="roww mb-2" style="text-align: center;">
+						<p id="errorText2"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function applyCoupon() {
+			const couponCodeInput = document.getElementById('couponCode');
+			const applyButton = document.getElementById('applyButton');
+			const errorText = document.getElementById('errorText');
+
+			const correctCouponCode = '12345';
+			const enteredCouponCode = couponCodeInput.value;
+
+			if (enteredCouponCode === correctCouponCode) {
+				applyButton.textContent = 'Applied';
+				applyButton.disabled = true;
+				couponCodeInput.disabled = true;
+				errorText.textContent = 'Congratulations! You have received 20% OFF on your purchase.';
+				errorText.style.color = "green";
+				setTimeout(() => {
+					errorText.textContent = '';
+				}, 3000);
+			} else {
+				errorText.textContent = 'Invalid coupon code. Please try again.';
+				errorText.style.color = "red";
+				setTimeout(() => {
+					errorText.textContent = '';
+				}, 3000);
+
+			}
+		}
+	</script>
+
+	<script>
+		function applyCoupon2() {
+
+			const applyButton2 = document.getElementById('apply');
+			const errorText2 = document.getElementById('errorText2');
+			applyButton2.textContent = 'Applied';
+			applyButton2.disabled = true;
+			errorText2.textContent = 'Congratulations! You have received 20% OFF on your purchase.';
+			errorText2.style.color = "green";
+			setTimeout(() => {
+				errorText2.textContent = '';
+			}, 3000);
+		}
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--plus minus-->
+
+	<script>
+		const minusButton = document.getElementById('minus');
+		const plusButton = document.getElementById('plus');
+		const numberInput = document.getElementById('number');
+
+		minusButton.addEventListener('click', () => {
+			let currentValue = parseInt(numberInput.value);
+			if (!isNaN(currentValue) && currentValue > 1) {
+				numberInput.value = currentValue - 1;
+			}
+		});
+
+		plusButton.addEventListener('click', () => {
+			let currentValue = parseInt(numberInput.value);
+			if (!isNaN(currentValue)) {
+				numberInput.value = currentValue + 1;
+			}
+		});
+	</script>
+
+
+	<!-- search js -->
+	<script>
+		
+
+		icon.addEventListener('click', () => {
+			hiddenDiv.classList.add("class1");
+		});
+		hiddenDiv.addEventListener('mouseleave', () => {
+			hiddenDiv.classList.remove("class1");// Hide the hidden div
+		});
+
+	</script>
+
+	<!-- search bar js -->
+	<!-- <script>
+		const searchBox = document.getElementById('search-box');
+		const suggestionsList = document.getElementById('suggestions-list');
+		const suggestions = [
+			'Apple',
+			'Banana',
+			'Cherry',
+			'Date',
+			'Fig',
+			'Grape',
+			'Kiwi',
+			'Lemon',
+			'Mango',
+			'Orange',
+			'Peach',
+			'Pear',
+			'Pineapple',
+			'Strawberry',
+			'Watermelon',
+		];
+		function updateSuggestions() {
+			const inputValue = searchBox.value.toLowerCase();
+			suggestionsList.innerHTML = '';
+
+			const filteredSuggestions = suggestions.filter(suggestion =>
+				suggestion.toLowerCase().includes(inputValue)
+			);
+
+			filteredSuggestions.forEach(suggestion => {
+				const listItem = document.createElement('li');
+				listItem.className = 'suggestion-item';
+				listItem.textContent = suggestion;
+
+				listItem.addEventListener('click', () => {
+					searchBox.value = suggestion;
+					suggestionsList.innerHTML = '';
+				});
+
+				suggestionsList.appendChild(listItem);
+			});
+		}
+		searchBox.addEventListener('input', updateSuggestions);
+	</script> -->
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+	<!-- modal open close  -->
+	<script>
+		$(document).ready(function () {
+			$("#loginButton").on("click", function () {
+				// Close the current modal
+				$("#loginModal").modal('hide');
+
+				// Open the next modal
+				$("#otpModal").modal('show');
+			});
+		});
+
+		$(document).ready(function () {
+			$("#otpButton").on("click", function () {
+				// Close the current modal
+				$("#otpModal").modal('hide');
+
+				// Open the next modal
+				$("#signupModal").modal('show');
+			});
+		});
+
+		$(document).ready(function () {
+			$("#signupButton").on("click", function () {
+				// Close the current modal
+				$("#signupModal").modal('hide');
+
+				// Open the next modal
+				$("#verificationModal").modal('show');
+			});
+		});
+
+		$(document).ready(function () {
+			$("#editButton").on("click", function () {
+				// Close the current modal
+				$("#profileModal").modal('hide');
+
+				// Open the next modal
+				$("#editProfileModal").modal('show');
+			});
+		});
+
+	</script>
+
+
+</body>
+
+
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-top-search" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" id="cl_ose__btn" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><img src="assets/images/klose.png" width="30px" height="30px"
+							alt=""></span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div>
+					<div class="container ">
+						<div class="row justify-content-center w-100 ">
+							<div class="col-md-12">
+								<div class="suggestion-container w-100 mb-4">
+									<input type="text" id="search-box" placeholder="Type what you are looking for...">
+									<button type="submit" id="search-button"><i class="fa fa-search clr modal-search-clr"></i></button>
+								</div>
+							</div>
+                            </div>
+						<div class="row " >
+							<div class="searchcontainer col-md-12">
+								<div class="search__child">
+									Trending Searches
+								</div>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="searchcontainer col-md-12">
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="searchcontainer col-md-12">
+								<div class="search__child">
+									Trending Categories
+								</div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="searchcontainer col-md-12">
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+								<button class="searchchild">
+									sample 1
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" id="verificationModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+	aria-hidden="true">
+	<button id="abclose4" type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-auto mb-3">
+							<img src="assets/images/tick.png" height="30px" width="30px" alt="">
+						</div>
+						<div class="w-100"></div>
+						<div class="col-md-auto">
+							<h1>Email Verification</h1>
+						</div>
+						<div class="col-md-auto">
+							<h1>Link Sent</h1>
+						</div>
+						<div class="col-md-auto">
+							<p>To finish logging in, check your email to continue.<br>We have sent a link to you at
+								user@gmail.com.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</html>

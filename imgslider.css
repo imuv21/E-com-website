@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
+
+.supcontt {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: 'Urbanist', sans-serif;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+
+.d-none{
+    display: none;
+}
+
+.container_img_car {
+
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.car__ds {
+
+    position: relative;
+    height: 500px;
+    width: 430px;
+    margin-bottom: 20px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.car__ds label {
+
+    position: absolute;
+    width: 430px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.car__ds .ca_rd {
+
+    position: relative;
+    height: 0px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.ca_rd .ima_ge {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ca_rd .ima_ge img {
+
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* box-shadow: 15px 15px 40px rgba(0, 0, 0, 10%); */
+    margin-top: 23px;
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+#s0:checked~.car__ds #slide4,
+#s1:checked~.car__ds #slide5,
+#s2:checked~.car__ds #slide6,
+#s3:checked~.car__ds #slide0,
+#s4:checked~.car__ds #slide1,
+#s5:checked~.car__ds #slide2,
+#s6:checked~.car__ds #slide3 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-90%, 0, -220px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s0:checked~.car__ds #slide5,
+#s1:checked~.car__ds #slide6,
+#s2:checked~.car__ds #slide0,
+#s3:checked~.car__ds #slide1,
+#s4:checked~.car__ds #slide2,
+#s5:checked~.car__ds #slide3,
+#s6:checked~.car__ds #slide4 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-60%, 0, -120px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s0:checked~.car__ds #slide6,
+#s1:checked~.car__ds #slide0,
+#s2:checked~.car__ds #slide1,
+#s3:checked~.car__ds #slide2,
+#s4:checked~.car__ds #slide3,
+#s5:checked~.car__ds #slide4,
+#s6:checked~.car__ds #slide5 {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(-30%, 0, -20px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+
+}
+
+#s0:checked~.car__ds #slide0,
+#s1:checked~.car__ds #slide1,
+#s2:checked~.car__ds #slide2,
+#s3:checked~.car__ds #slide3,
+#s4:checked~.car__ds #slide4,
+#s5:checked~.car__ds #slide5,
+#s6:checked~.car__ds #slide6 {
+
+
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
+    transform: translate3d(0, 0, 0);
+    --current-color1: #fad00c;
+    --current-color2: #ECEAED;
+}
+
+#s0:checked~.car__ds #slide1,
+#s1:checked~.car__ds #slide2,
+#s2:checked~.car__ds #slide3,
+#s3:checked~.car__ds #slide4,
+#s4:checked~.car__ds #slide5,
+#s5:checked~.car__ds #slide6,
+#s6:checked~.car__ds #slide0 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(30%, 0, -20px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s0:checked~.car__ds #slide2,
+#s1:checked~.car__ds #slide3,
+#s2:checked~.car__ds #slide4,
+#s3:checked~.car__ds #slide5,
+#s4:checked~.car__ds #slide6,
+#s5:checked~.car__ds #slide0,
+#s6:checked~.car__ds #slide1 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(60%, 0, -120px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}
+
+#s0:checked~.car__ds #slide3,
+#s1:checked~.car__ds #slide4,
+#s2:checked~.car__ds #slide5,
+#s3:checked~.car__ds #slide6,
+#s4:checked~.car__ds #slide0,
+#s5:checked~.car__ds #slide1,
+#s6:checked~.car__ds #slide2 {
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 45%);
+    transform: translate3d(90%, 0, -220px);
+    --current-color1: #ECEAED;
+    --current-color2: #404457;
+}

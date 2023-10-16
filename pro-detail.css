@@ -1,0 +1,273 @@
+#abclose1{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top: 170px;
+    right:480px;
+}
+
+/* star rating  */
+
+.rating {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating input {
+    display: none;
+   
+}
+
+.rating label {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* padding: 0 5px; */
+}
+
+.rating label:before {
+    content: "\2605";
+}
+
+.rating input:checked ~ label {
+    color: #ffcc00;
+}
+#tdn{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+#tdn:hover{
+    text-decoration: none;
+}
+#tdn:focus{
+    text-decoration: none;
+}
+
+
+
+
+
+/* filter fabric and craft */
+p.accordion {
+    background-color: white;
+    color: #b12f30 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    border-top: 1px solid #b12f30;
+    /* border-bottom: 1px solid #444; */
+    outline: none;
+    transition: 1s;
+    margin-bottom: -10px;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '+';
+    font-size: 25px;
+    color: #b12f30;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "-";
+    font-size: 25px;
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 100%;
+    
+   
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+/* suuuuuub */
+
+p.subaccordion {
+    background-color: white;
+    color: #b12f30 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    border-top: 1px solid #b12f30;
+    /* border-bottom: 1px solid #444; */
+    outline: none;
+    transition: 1s;
+    margin-bottom: -10px;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.subaccordion:after {
+    content: '+';
+    font-size: 22px;
+    color: #b12f30;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.subaccordion.active:after {
+    content: "-";
+    font-size: 22px;
+}
+
+/* Style the element that is used for the panel class */
+
+div.subpanel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+ 
+}
+
+div.subpanel.show {
+    opacity: 1;
+    max-height: 100%;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fat{
+   color: #b12f30;
+   font-weight: 400;
+}
+
+#minus{
+  font-size: bold;
+}
+#plus{
+   font-size: bold;
+}
+#rev{
+    margin-left: 3%;
+}
+.key-specify{
+    font-size: 18px;
+}
+.related-product{
+    font-size: 28px;
+}
+.text{
+    font-size: 14px;
+}
+/* validation */
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2px;
+}
+.validationerror {
+    color: red;
+}
+
+.otp[type="text"] {
+    text-decoration: none;
+    color: gray;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+/* .icon {
+    width: 30px;
+    height: 30px;
+    color:gray;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.containerpm{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: gray;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.countt[type="text"] {
+    width: 30px;
+    height: 30px;
+    color:gray;
+    text-align: center;
+    outline: none;
+    border: none;
+}   
+
+#abclose2{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:100px;
+    right:460px;
+}
+#abclose3{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:30px;
+    right:460px;
+}
+#abclose4{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    top:190px;
+    right:460px;
+}
